@@ -1,9 +1,20 @@
 A Node Module for Search engine optimization (SEO) defects
 ===
 
+Installation
+---
+
+To install module from github
+```sh
+yarn add https://github.com/leonlei1983/seo-defects
 ```
+
+Example
+---
+
+```js
 var fs = require('fs');
-var seodefects = require('./');
+var seodefects = require('seo-defects');
 
 // User is free to chain any rules by themselves
 seodefects.setDefaultRule(2, 1, 5);
@@ -28,4 +39,3 @@ seodefects.scan('./test.html');
 // II. Node Readable Stream
 // seodefects.scan(fs.createReadStream('./test.html'));
 ```
-
