@@ -9,6 +9,17 @@ To install module from github
 yarn add https://github.com/leonlei1983/seo-defects
 ```
 
+Testing
+---
+
+To execute testing by mocha
+```
+git clone https://github.com/leonlei1983/seo-defects
+cd seo-defects
+yarn install
+yarn test
+```
+
 Example
 ---
 
